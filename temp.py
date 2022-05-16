@@ -115,7 +115,7 @@ def membershipsF() :
   return memberships.text
 
 def testF() : 
-  test = requests.get('http://10.30.5.22:3000/api/timeline/',headers=header_user)
+  test = requests.get('http://10.30.5.22:3000/api/setting/',headers=header_user)
   return test.text
 
 sessions = sessionsF()
