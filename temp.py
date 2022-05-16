@@ -1,10 +1,6 @@
-from ast import Return
-from email import header
 import json
 from multiprocessing import reduction
-from urllib import request
 from webbrowser import get
-from wsgiref import headers
 import requests
 
 url_session="http://10.30.5.22:3000/api/session"
