@@ -1,0 +1,18 @@
+    {
+        "name": "projects/{project_id}/locations/{locationId}/connections/{connectionId}",
+        "friendlyName": "geodata",
+        "description": "geodata",
+        "creationTime": "string",
+        "lastModifiedTime": "string",
+        "hasCredential": true,
+
+        "cloudSql": {
+                "instanceId": "stage PSud:Aucune organisation:???",
+                "database": "geodata",
+                "type":"POSTGRES",
+                "credential": {
+                  "username": "postgres",
+                  "password": "root"
+                }
+        }
+    }
