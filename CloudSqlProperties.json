@@ -1,0 +1,9 @@
+{
+  "instanceId": "stage PSud:Aucune organisation:???",
+  "database": "geodata",
+  "type":"POSTGRES",
+  "credential": {
+    "username": "postgres",
+    "password": "root"
+  }
+}
