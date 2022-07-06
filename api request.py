@@ -37,10 +37,10 @@ token,siteid = sessionsF()
 urlcreagroup="https://prod-apsoutheast-a.online.tableau.com/api/3.5/sites/"+siteid+"/projects"
 
 def creation_projectF(token) :
-    header=token
-    body='<tsRequest><project name="datadev prject" description="thisis a new project"/></tsRequest>'
-    posts = requests.post(urlconnect,header,body)
-  
+    headers=token
+    body='<tsRequest><project name="datadev prject" description="thisis a new project" /></tsRequest>'
+    posts = requests.post(urlconnect,headers,body)
+    
     text_post = posts.text
     #temp = json.loads(text_post)
     return text_post
